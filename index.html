@@ -1,0 +1,677 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portf&oacute;lio Victor Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <main class="portfolio-shell">
+      <nav class="navbar" aria-label="Navega&ccedil;&atilde;o principal">
+        <a class="nav-link" href="#sobre-mim">Sobre Mim</a>
+        <a class="nav-link" href="#projetos">Projetos</a>
+        <a class="nav-link" href="#servicos">Servi&ccedil;os</a>
+        <a class="nav-link" href="#contato">Contato</a>
+      </nav>
+
+      <section
+        class="hero"
+        id="inicio"
+        aria-label="Portf&oacute;lio Victor Design"
+      >
+        <img class="hero-background" src="imagens/FUNDO.png" alt="" />
+
+        <img
+          class="hero-person"
+          src="imagens/EU.png"
+          alt="Victor, designer, usando terno azul"
+        />
+
+        <div class="hero-info">
+          <p>
+            Transformando ideias em experi&ecirc;ncias<br />visuais criativas e
+            funcionais
+          </p>
+          <a class="explore-link" href="#projetos">
+            <span aria-hidden="true">&darr;</span>
+            Explore meus projetos
+          </a>
+        </div>
+      </section>
+
+      <section class="about-section" id="sobre-mim" aria-label="Sobre mim">
+        <div class="about-photo-wrap">
+          <img
+            class="about-photo"
+            src="imagens/EU - SOBRE MIM.png"
+            alt="Victor Hugo de perfil"
+          />
+        </div>
+
+        <div class="about-content">
+          <div class="about-block">
+            <h2>Sobre mim</h2>
+            <p>
+              Sou Victor Hugo, graduando em Bacharelado em Design. Apaixonado
+              por criatividade e express&atilde;o visual, busco transformar
+              ideias em experi&ecirc;ncias que unem est&eacute;tica,
+              prop&oacute;sito e funcionalidade. Estou sempre explorando novas
+              formas de comunicar atrav&eacute;s do design e deixar minha marca
+              em cada projeto que desenvolvo.
+            </p>
+          </div>
+
+          <div class="about-block">
+            <h3>Software Skills</h3>
+            <div class="skill-list" aria-label="Softwares">
+              <img src="imagens/PHOTOSHOP.png" alt="Photoshop" />
+              <img src="imagens/ILLUSTRATOR.png" alt="Illustrator" />
+              <img src="imagens/FIGMA.png" alt="Figma" />
+              <img src="imagens/HTML.png" alt="HTML" />
+              <img src="imagens/CSS.png" alt="CSS" />
+            </div>
+          </div>
+
+          <div class="about-block">
+            <h3>Gradua&ccedil;&atilde;o</h3>
+            <p class="education">
+              Bacharelado em Design<br />
+              07/2023 - 06/2027
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="projects-section"
+        id="projetos"
+        aria-label="Meus projetos"
+      >
+        <div class="projects-heading">
+          <h2>Meus Projetos</h2>
+          <p>
+            Uma sele&ccedil;&atilde;o de trabalhos que refletem minha abordagem
+            ao design — intencional, funcional e visualmente marcante.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article
+            class="project-card project-card-tall"
+            data-project-title="Bras&atilde;o Santa Cruz"
+            data-zoom-src="imagens/BRASÃOSANTACRUZ.png"
+          >
+            <img src="imagens/santacruz.png" alt="Bras&atilde;o Santa Cruz" />
+            <div class="project-overlay" aria-hidden="true">
+              <a
+                class="project-action"
+                href="brasao-santa-cruz.html"
+                aria-label="Abrir estudo do Bras&atilde;o Santa Cruz"
+              >
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M10 13a5 5 0 0 0 7.07 0l2.83-2.83a5 5 0 0 0-7.07-7.07L11.5 4.43"
+                  />
+                  <path
+                    d="M14 11a5 5 0 0 0-7.07 0L4.1 13.83a5 5 0 0 0 7.07 7.07l1.33-1.33"
+                  />
+                </svg>
+              </a>
+              <span class="project-action">
+                <svg viewBox="0 0 24 24">
+                  <circle cx="11" cy="11" r="7" />
+                  <path d="m21 21-4.3-4.3" />
+                  <path d="M11 8v6" />
+                  <path d="M8 11h6" />
+                </svg>
+              </span>
+            </div>
+          </article>
+
+          <div class="project-stack">
+            <article
+              class="project-card"
+              data-project-title="Caneca Par&oacute;quia Santa Cruz"
+            >
+              <img src="imagens/CANECASANTACRUZ.png" alt="Canecas Santa Cruz" />
+              <div class="project-overlay" aria-hidden="true">
+                <span class="project-action project-zoom-action">
+                  <svg viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="7" />
+                    <path d="m21 21-4.3-4.3" />
+                    <path d="M11 8v6" />
+                    <path d="M8 11h6" />
+                  </svg>
+                </span>
+              </div>
+            </article>
+            <article
+              class="project-card"
+              data-project-title="Caneca Catedral de Santo Amaro"
+            >
+              <img
+                src="imagens/CANECASANTOAMARO.png"
+                alt="Canecas Santo Amaro"
+              />
+              <div class="project-overlay" aria-hidden="true">
+                <span class="project-action project-zoom-action">
+                  <svg viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="7" />
+                    <path d="m21 21-4.3-4.3" />
+                    <path d="M11 8v6" />
+                    <path d="M8 11h6" />
+                  </svg>
+                </span>
+              </div>
+            </article>
+          </div>
+
+          <article
+            class="project-card project-card-tall"
+            data-project-title="Aplicativo Lollapalooza da Lorde"
+          >
+            <img src="imagens/APPLORD.png" alt="Projeto mobile sobre Lorde" />
+            <div class="project-overlay" aria-hidden="true">
+              <a
+                class="project-action"
+                href="app-lorde.html"
+                aria-label="Abrir estudo do App Lorde"
+              >
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M10 13a5 5 0 0 0 7.07 0l2.83-2.83a5 5 0 0 0-7.07-7.07L11.5 4.43"
+                  />
+                  <path
+                    d="M14 11a5 5 0 0 0-7.07 0L4.1 13.83a5 5 0 0 0 7.07 7.07l1.33-1.33"
+                  />
+                </svg>
+              </a>
+              <span class="project-action">
+                <svg viewBox="0 0 24 24">
+                  <circle cx="11" cy="11" r="7" />
+                  <path d="m21 21-4.3-4.3" />
+                  <path d="M11 8v6" />
+                  <path d="M8 11h6" />
+                </svg>
+              </span>
+            </div>
+          </article>
+
+          <div class="project-stack">
+            <article class="project-card" data-project-title="Programa CarneUp">
+              <img src="imagens/CARNEUP.png" alt="Projeto CarneUp" />
+              <div class="project-overlay" aria-hidden="true">
+                <a
+                  class="project-action"
+                  href="carneup.html"
+                  aria-label="Abrir estudo do CarneUp"
+                >
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M10 13a5 5 0 0 0 7.07 0l2.83-2.83a5 5 0 0 0-7.07-7.07L11.5 4.43"
+                    />
+                    <path
+                      d="M14 11a5 5 0 0 0-7.07 0L4.1 13.83a5 5 0 0 0 7.07 7.07l1.33-1.33"
+                    />
+                  </svg>
+                </a>
+                <span class="project-action">
+                  <svg viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="7" />
+                    <path d="m21 21-4.3-4.3" />
+                    <path d="M11 8v6" />
+                    <path d="M8 11h6" />
+                  </svg>
+                </span>
+              </div>
+            </article>
+            <article
+              class="project-card"
+              data-project-title="Site de Vagas de Est&aacute;gio"
+            >
+              <img src="imagens/SITE DE ESTÁGIOS.png" alt="Projeto Vagas" />
+              <div class="project-overlay" aria-hidden="true">
+                <a
+                  class="project-action"
+                  href="site-vagas.html"
+                  aria-label="Abrir estudo do Site de Vagas de Est&aacute;gio"
+                >
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M10 13a5 5 0 0 0 7.07 0l2.83-2.83a5 5 0 0 0-7.07-7.07L11.5 4.43"
+                    />
+                    <path
+                      d="M14 11a5 5 0 0 0-7.07 0L4.1 13.83a5 5 0 0 0 7.07 7.07l1.33-1.33"
+                    />
+                  </svg>
+                </a>
+                <span class="project-action">
+                  <svg viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="7" />
+                    <path d="m21 21-4.3-4.3" />
+                    <path d="M11 8v6" />
+                    <path d="M8 11h6" />
+                  </svg>
+                </span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="photos-section"
+        id="fotografias"
+        data-nav-section="projetos"
+        aria-label="Algumas fotografias"
+      >
+        <div class="photos-heading">
+          <h2>Algumas fotografias</h2>
+          <p>Meu olhar atrav&eacute;s da lente.</p>
+        </div>
+
+        <div class="photos-grid">
+          <div class="photos-stack">
+            <article class="photo-card">
+              <img
+                src="imagens/IMG_0857.JPG"
+                alt="Esta&ccedil;&atilde;o de trem iluminada"
+              />
+              <div class="photo-overlay" aria-hidden="true">
+                <span class="photo-action">
+                  <svg viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="7" />
+                    <path d="m21 21-4.3-4.3" />
+                    <path d="M11 8v6" />
+                    <path d="M8 11h6" />
+                  </svg>
+                </span>
+              </div>
+            </article>
+            <article class="photo-card">
+              <img
+                src="imagens/IMG_9517.JPG.jpeg"
+                alt="Placa entre &aacute;rvores"
+              />
+              <div class="photo-overlay" aria-hidden="true">
+                <span class="photo-action">
+                  <svg viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="7" />
+                    <path d="m21 21-4.3-4.3" />
+                    <path d="M11 8v6" />
+                    <path d="M8 11h6" />
+                  </svg>
+                </span>
+              </div>
+            </article>
+          </div>
+
+          <article class="photo-card photo-card-tall">
+            <img
+              src="imagens/IMG_1536.JPG"
+              alt="Montanhas e cidade entre nuvens"
+            />
+            <div class="photo-overlay" aria-hidden="true">
+              <span class="photo-action">
+                <svg viewBox="0 0 24 24">
+                  <circle cx="11" cy="11" r="7" />
+                  <path d="m21 21-4.3-4.3" />
+                  <path d="M11 8v6" />
+                  <path d="M8 11h6" />
+                </svg>
+              </span>
+            </div>
+          </article>
+
+          <div class="photos-stack">
+            <article class="photo-card">
+              <img
+                src="imagens/IMG_0074.JPG.jpeg"
+                alt="Entrada da Esta&ccedil;&atilde;o Pinacoteca do Arsenal"
+              />
+              <div class="photo-overlay" aria-hidden="true">
+                <span class="photo-action">
+                  <svg viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="7" />
+                    <path d="m21 21-4.3-4.3" />
+                    <path d="M11 8v6" />
+                    <path d="M8 11h6" />
+                  </svg>
+                </span>
+              </div>
+            </article>
+            <article class="photo-card">
+              <img
+                src="imagens/DSC_1313.JPG"
+                alt="Pessoa iluminada em ambiente escuro"
+              />
+              <div class="photo-overlay" aria-hidden="true">
+                <span class="photo-action">
+                  <svg viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="7" />
+                    <path d="m21 21-4.3-4.3" />
+                    <path d="M11 8v6" />
+                    <path d="M8 11h6" />
+                  </svg>
+                </span>
+              </div>
+            </article>
+          </div>
+
+          <article class="photo-card photo-card-tall">
+            <img
+              src="imagens/IMG_9471.JPG"
+              alt="Retrato com ilumina&ccedil;&atilde;o azul e roxa"
+            />
+            <div class="photo-overlay" aria-hidden="true">
+              <span class="photo-action">
+                <svg viewBox="0 0 24 24">
+                  <circle cx="11" cy="11" r="7" />
+                  <path d="m21 21-4.3-4.3" />
+                  <path d="M11 8v6" />
+                  <path d="M8 11h6" />
+                </svg>
+              </span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="services-section"
+        id="servicos"
+        aria-label="Servi&ccedil;os"
+      >
+        <h2>Servi&ccedil;os</h2>
+
+        <div class="services-grid">
+          <article class="service-item">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 3 5 6v5c0 4.5 2.9 8.4 7 10 4.1-1.6 7-5.5 7-10V6l-7-3Z"
+                />
+                <path
+                  d="m12 8 1.1 2.2 2.4.4-1.8 1.7.5 2.4-2.2-1.2-2.2 1.2.5-2.4-1.8-1.7 2.4-.4L12 8Z"
+                />
+              </svg>
+            </span>
+            <div>
+              <h3>Identidade Visual</h3>
+              <p>
+                Desenvolvo a identidade visual completa para sua marca se
+                destacar no mercado. O processo inclui a cria&ccedil;&atilde;o
+                de um logo memor&aacute;vel, a defini&ccedil;&atilde;o da paleta
+                de cores e tipografia, e a elabora&ccedil;&atilde;o de um guia
+                de estilo, garantindo uma presen&ccedil;a coesa e profissional
+                em todas as plataformas.
+              </p>
+            </div>
+          </article>
+
+          <article class="service-item">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="m12 19 7-7 3 3-7 7-3-3Z" />
+                <path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5Z" />
+                <path d="m2 2 7.6 7.6" />
+                <circle cx="11" cy="11" r="2" />
+              </svg>
+            </span>
+            <div>
+              <h3>Design Gr&aacute;fico</h3>
+              <p>
+                Transformo suas ideias e valores em uma identidade visual forte
+                e memor&aacute;vel. Crio pe&ccedil;as gr&aacute;ficas (logos,
+                branding, materiais impressos e digitais) que n&atilde;o apenas
+                impressionam visualmente, mas tamb&eacute;m comunicam sua
+                mensagem com clareza e alcan&ccedil;am os objetivos do seu
+                neg&oacute;cio.
+              </p>
+            </div>
+          </article>
+
+          <article class="service-item">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <rect x="3.5" y="4.5" width="17" height="15" rx="1.5" />
+                <path d="M8.5 4.5v15" />
+                <path d="M12 9h5" />
+                <path d="M12 13h5" />
+                <path d="M5.8 8h.01" />
+                <path d="M5.8 12h.01" />
+                <path d="M5.8 16h.01" />
+              </svg>
+            </span>
+            <div>
+              <h3>UI/UX Design</h3>
+              <p>
+                Desenho interfaces digitais (sites, apps e sistemas) que
+                s&atilde;o intuitivas e agrad&aacute;veis. Meu foco &eacute; na
+                jornada do usu&aacute;rio, garantindo que a experi&ecirc;ncia
+                seja fluida, eficiente e otimizada para a convers&atilde;o de
+                resultados.
+              </p>
+            </div>
+          </article>
+
+          <article class="service-item">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="8" />
+                <circle cx="12" cy="12" r="4" />
+                <path d="M12 12 19 5" />
+                <path d="M16 5h3v3" />
+              </svg>
+            </span>
+            <div>
+              <h3>Consultoria Criativa</h3>
+              <p>
+                Se voc&ecirc; precisa de um direcionamento criativo ou uma
+                segunda opini&atilde;o especializada, esta &eacute; a
+                solu&ccedil;&atilde;o. Ofere&ccedil;o sess&otilde;es de
+                consultoria para analisar desafios de design, destravar novas
+                ideias e definir a melhor estrat&eacute;gia visual para o seu
+                projeto.
+              </p>
+            </div>
+          </article>
+
+          <article class="service-item">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M5 8h3l1.5-2h5L16 8h3v10H5V8Z" />
+                <circle cx="12" cy="13" r="3" />
+              </svg>
+            </span>
+            <div>
+              <h3>Fotografia</h3>
+              <p>
+                A fotografia &eacute; onde exercito minha
+                percep&ccedil;&atilde;o de luz, sombra e enquadramento no mundo
+                real. Mais do que registrar momentos, encaro cada clique como um
+                estudo de composi&ccedil;&atilde;o e contraste, refinando o
+                senso est&eacute;tico que aplico em todos os meus projetos de
+                design.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contato" aria-label="Contato">
+        <div class="contact-heading">
+          <h2>Tem um projeto em mente?</h2>
+          <p>
+            Vamos conversar sobre suas ideias e criar algo<br />extraordin&aacute;rio
+            juntos.
+          </p>
+        </div>
+
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/mojbkebk"
+          method="POST"
+        >
+          <label>
+            <span>Nome <b>*</b></span>
+            <input
+              type="text"
+              name="nome"
+              placeholder="Seu nome completo"
+              autocomplete="name"
+              required
+            />
+          </label>
+
+          <label>
+            <span>E-mail <b>*</b></span>
+            <input
+              type="email"
+              name="email"
+              placeholder="seu@email.com"
+              autocomplete="email"
+              inputmode="email"
+              pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$"
+              title="Digite um e-mail válido, como nome@dominio.com."
+              required
+            />
+          </label>
+
+          <label>
+            <span>Seu desafio <b>*</b></span>
+            <textarea
+              name="message"
+              placeholder="Descreva seu projeto ou ideia..."
+              required
+            ></textarea>
+          </label>
+
+          <input
+            type="hidden"
+            name="_subject"
+            value="Novo contato pelo portfólio"
+          />
+          <button type="submit">
+            Enviar Mensagem
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m22 2-7 20-4-9-9-4 20-7Z" />
+              <path d="M22 2 11 13" />
+            </svg>
+          </button>
+        </form>
+
+        <div class="contact-divider">
+          <span>Canais de contato</span>
+        </div>
+
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:victordesigncreative@gmail.com">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 6h16v12H4z" />
+              <path d="m4 7 8 6 8-6" />
+            </svg>
+            <span>E-mail</span>
+            <strong>victordesigncreative@gmail.com</strong>
+          </a>
+
+          <a
+            class="contact-card"
+            href="https://w.app/i94r0q"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 19 6.2 15.6A7 7 0 1 1 9 18.1L5 19Z" />
+              <path
+                d="M9.5 8.8c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.7 1.6c.1.2 0 .4-.1.6l-.4.5c.6 1 1.4 1.8 2.5 2.4l.5-.5c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.6v.5c0 .3-.1.5-.4.7-.5.3-1.1.5-1.7.4-2.7-.4-5.8-3.4-6.2-6.1-.1-.7.1-1.3.3-1.8Z"
+              />
+            </svg>
+            <span>WhatsApp</span>
+            <strong>(11) 99761-8821</strong>
+          </a>
+
+          <a
+            class="contact-card"
+            href="https://www.instagram.com/victordesign.br?igsh=YmllcWcwd20zajg3&utm_source=qr"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="5" y="5" width="14" height="14" rx="4" />
+              <circle cx="12" cy="12" r="3" />
+              <path d="M16.5 7.5h.01" />
+            </svg>
+            <span>Instagram</span>
+            <strong>@victordesign.br</strong>
+          </a>
+
+          <a
+            class="contact-card"
+            href="https://www.linkedin.com/in/victor-hugo-braga-alcantara-9099b823b"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6.5 10v8" />
+              <path d="M10.5 18v-8" />
+              <path
+                d="M10.5 13.5c0-2 1.2-3.5 3.2-3.5 1.8 0 2.8 1.2 2.8 3.4V18"
+              />
+              <path d="M6.5 6.5h.01" />
+            </svg>
+            <span>LinkedIn</span>
+            <strong>Victor Hugo Braga Alcantara</strong>
+          </a>
+
+          <a
+            class="contact-card"
+            href="https://www.behance.net/victorbragaa"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 7h5.5a3 3 0 0 1 0 6H4V7Z" />
+              <path d="M4 13h6a3 3 0 0 1 0 6H4v-6Z" />
+              <path
+                d="M15 13h5a2.8 2.8 0 0 0-5.4-.9c-.6 1.5.1 4.9 2.9 4.9 1.1 0 1.9-.4 2.5-1.1"
+              />
+              <path d="M15.5 8.5h4" />
+            </svg>
+            <span>Behance</span>
+            <strong>Victor Hugo Braga</strong>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <div class="project-lightbox" aria-hidden="true">
+      <button
+        class="lightbox-close"
+        type="button"
+        aria-label="Fechar visualiza&ccedil;&atilde;o"
+      >
+        &times;
+      </button>
+      <div
+        class="lightbox-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Projeto ampliado"
+      >
+        <img class="lightbox-image" src="" alt="" />
+        <h3 class="lightbox-title"></h3>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
