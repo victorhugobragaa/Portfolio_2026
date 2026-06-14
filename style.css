@@ -12,14 +12,14 @@ html {
 body {
   min-width: 320px;
   overflow-x: hidden;
-  background: #05070A;
+  background: #05070a;
   color: #ffffff;
   font-family: "Inter", sans-serif;
 }
 
 .portfolio-shell {
   min-height: 100vh;
-  background: #05070A;
+  background: #05070a;
 }
 
 .cursor-glow {
@@ -232,7 +232,7 @@ body:hover .cursor-glow {
 }
 
 .explore-link span {
-  color: #00577C;
+  color: #00577c;
   font-size: 0.9em;
   transition: transform 0.25s ease;
 }
@@ -250,7 +250,7 @@ body:hover .cursor-glow {
   overflow: hidden;
   background:
     radial-gradient(circle at 25% 31%, rgba(0, 87, 124, 0.28), transparent 35%),
-    #05070A;
+    #05070a;
 }
 
 #sobre-mim,
@@ -330,7 +330,7 @@ body:hover .cursor-glow {
 .projects-section {
   min-height: 68vh;
   padding: clamp(46px, 7vh, 76px) clamp(28px, 8vw, 104px) clamp(58px, 8vh, 90px);
-  background: #05070A;
+  background: #05070a;
 }
 
 .projects-heading {
@@ -495,7 +495,7 @@ body:hover .cursor-glow {
   max-height: calc(88vh - 74px);
   object-fit: contain;
   object-position: center;
-  background: #05070A;
+  background: #05070a;
   image-rendering: auto;
   filter: none;
   transform: none;
@@ -553,7 +553,7 @@ body:hover .cursor-glow {
   min-height: 62vh;
   padding: clamp(32px, 5.2vh, 52px) clamp(24px, 8vw, 92px)
     clamp(54px, 8vh, 86px);
-  background: #05070A;
+  background: #05070a;
 }
 
 .photos-heading {
@@ -670,7 +670,7 @@ body:hover .cursor-glow {
   min-height: 100vh;
   padding: clamp(64px, 9vh, 94px) clamp(24px, 7vw, 86px)
     clamp(72px, 10vh, 104px);
-  background: #05070A;
+  background: #05070a;
 }
 
 .services-section > h2 {
@@ -728,10 +728,10 @@ body:hover .cursor-glow {
   justify-content: center;
   width: clamp(36px, 3.8vw, 48px);
   height: clamp(36px, 3.8vw, 48px);
-  border: 1px solid #00577C;
+  border: 1px solid #00577c;
   border-radius: 8px;
   background: #ffffff;
-  color: #00577C;
+  color: #00577c;
   transition:
     background-color 0.25s ease,
     color 0.25s ease,
@@ -772,13 +772,13 @@ body:hover .cursor-glow {
 }
 
 .service-item:hover .service-icon {
-  background: #00577C;
-  border-color: #00577C;
+  background: #00577c;
+  border-color: #00577c;
   color: #ffffff;
 }
 
 .service-item:hover h3 {
-  color: #00577C;
+  color: #00577c;
   font-weight: 800;
   text-shadow: 0 0 0 currentColor;
 }
@@ -792,7 +792,7 @@ body:hover .cursor-glow {
   min-height: 100vh;
   padding: clamp(82px, 12vh, 116px) clamp(24px, 6vw, 58px)
     clamp(58px, 8vh, 86px);
-  background: #05070A;
+  background: #05070a;
 }
 
 .contact-heading {
@@ -976,7 +976,7 @@ body:hover .cursor-glow {
 
 .case-page {
   min-height: 100vh;
-  background: #05070A;
+  background: #05070a;
 }
 
 .case-back {
@@ -1149,7 +1149,7 @@ body:hover .cursor-glow {
 }
 
 .lorde-prototype:hover {
-  color: #00577C;
+  color: #00577c;
 }
 
 .vacancies-page {
@@ -1221,7 +1221,7 @@ body:hover .cursor-glow {
 }
 
 .vacancies-prototype:hover {
-  color: #00577C;
+  color: #00577c;
 }
 
 .carneup-page {
@@ -1297,7 +1297,7 @@ body:hover .cursor-glow {
 }
 
 .carneup-prototype:hover {
-  color: #00577C;
+  color: #00577c;
 }
 
 @media (max-width: 760px) {
@@ -1480,7 +1480,6 @@ body:hover .cursor-glow {
   .carneup-visual {
     height: min(54vh, 420px);
   }
-
 }
 
 @media (max-height: 700px) and (min-width: 761px) {
