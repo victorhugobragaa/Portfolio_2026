@@ -672,6 +672,6 @@ body {
   .hero .hero-person,
   .hero-person.reveal,
   .hero-person.reveal.is-visible {
-    bottom: -24px !important;
+    bottom: -34px !important;
   }
 }
