@@ -102,7 +102,10 @@ function closeMobileMenu() {
 
   mobileMenu.classList.remove("is-open");
   mobileMenu.setAttribute("aria-hidden", "true");
-  mobileMenuToggles.forEach((toggle) => toggle.setAttribute("aria-expanded", "false"));
+  mobileMenuToggles.forEach((toggle) => {
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.setAttribute("aria-label", "Abrir menu");
+  });
   document.body.classList.remove("mobile-menu-open");
 }
 
@@ -111,11 +114,24 @@ function openMobileMenu() {
 
   mobileMenu.classList.add("is-open");
   mobileMenu.setAttribute("aria-hidden", "false");
-  mobileMenuToggles.forEach((toggle) => toggle.setAttribute("aria-expanded", "true"));
+  mobileMenuToggles.forEach((toggle) => {
+    toggle.setAttribute("aria-expanded", "true");
+    toggle.setAttribute("aria-label", "Fechar menu");
+  });
   document.body.classList.add("mobile-menu-open");
 }
 
-mobileMenuToggles.forEach((toggle) => toggle.addEventListener("click", openMobileMenu));
+function toggleMobileMenu() {
+  if (mobileMenu?.classList.contains("is-open")) {
+    closeMobileMenu();
+  } else {
+    openMobileMenu();
+  }
+}
+
+mobileMenuToggles.forEach((toggle) =>
+  toggle.addEventListener("click", toggleMobileMenu)
+);
 mobileMenuClose?.addEventListener("click", closeMobileMenu);
 
 mobileMenu?.addEventListener("click", (event) => {
