@@ -91,6 +91,27 @@ body {
     transform: none !important;
   }
 
+  .mobile-menu-toggle::before,
+  .mobile-menu-toggle::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 28px;
+    height: 4px;
+    border-radius: 999px;
+    background: #ffffff;
+    content: "";
+    opacity: 0;
+    transition:
+      opacity 0.2s ease,
+      transform 0.25s ease;
+  }
+
+  .mobile-menu-toggle::before,
+  .mobile-menu-toggle::after {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
   .mobile-menu-toggle-inline {
     display: none !important;
   }
@@ -107,6 +128,27 @@ body {
     display: block;
     width: 42px;
     height: auto;
+    transition:
+      opacity 0.18s ease,
+      transform 0.25s ease;
+  }
+
+  body.mobile-menu-open .mobile-menu-toggle img {
+    opacity: 0;
+    transform: scale(0.72) rotate(90deg);
+  }
+
+  body.mobile-menu-open .mobile-menu-toggle::before,
+  body.mobile-menu-open .mobile-menu-toggle::after {
+    opacity: 1;
+  }
+
+  body.mobile-menu-open .mobile-menu-toggle::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  body.mobile-menu-open .mobile-menu-toggle::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
   }
 
   .mobile-menu {
@@ -205,6 +247,11 @@ body {
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 1.8;
+  }
+
+  .mobile-menu-social .fa-whatsapp {
+    font-size: 36px;
+    line-height: 1;
   }
 
   .hero {

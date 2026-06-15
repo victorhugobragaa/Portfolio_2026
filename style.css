@@ -84,6 +84,11 @@ body {
   stroke-width: 1.8;
 }
 
+.footer-social .fa-whatsapp {
+  font-size: 24px;
+  line-height: 1;
+}
+
 .portfolio-shell {
   min-height: 100vh;
   background: #05070a;
@@ -1028,6 +1033,13 @@ body:hover .cursor-glow {
   stroke-width: 1.8;
 }
 
+.contact-card .fa-whatsapp {
+  margin-bottom: 18px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1;
+}
+
 .contact-card span {
   margin-bottom: 10px;
   letter-spacing: 5px;
@@ -1150,7 +1162,8 @@ body:hover .cursor-glow {
 
 .lorde-page {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .lorde-shell {
@@ -1221,7 +1234,8 @@ body:hover .cursor-glow {
 
 .vacancies-page {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .vacancies-shell {
@@ -1293,7 +1307,8 @@ body:hover .cursor-glow {
 
 .carneup-page {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .carneup-shell {
